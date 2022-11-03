@@ -1,16 +1,110 @@
 body {
     background-color: rgb(0, 0, 0);
     color: white;
-}
-.head {
-    font-size: 36px;
-    font-family:'Times New Roman', Times, serif;
-    text-align:center;
+    font-size: 14pt;
 }
 a {
     text-decoration: none;
-    color: red;
+    color: rgb(1, 163, 37);
+}
+a:link {
+    color: rgb(245, 9, 9);
+}
+a:visited {
+    color: violet;
 }
 a:hover {
     color: aqua;
+}
+a:active {
+    color: rgb(245, 9, 9);
+    border-bottom: 1px dashed;
+}
+.block1 {
+    text-align: center;
+    font-size: 100%;
+    font-family:'Times New Roman', Times, serif;
+}
+.text-center24 {
+    text-align: center;
+    font-size: 200%;
+}
+.text-center72 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.transparent-img{
+    margin-left: auto;
+    margin-right: auto;
+    height:10em;
+    transform: scale(.8);
+    transition: 1s all;
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+ p {
+    margin: 0;
+ }
+
+.img-center {
+    text-align: center;
+ }
+
+ .transparent-img:hover {
+    transform: scale(1.2);
+}
+menu {
+    list-style: none;
+}
+.main-menu {
+    display: block;
+    width: 45em;
+    margin: 0 auto;
+}
+.one menu {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.one li {
+    float: left;
+    margin-left: 45px;
+    display: block;
+}
+.one a {
+    display: block;
+    padding: .5em;
+    border-right: 1px solid #000000;
+    color: #ffffff;
+    transition: 1s all;
+}
+.one a:hover {
+    background: #ADC0CE;
+    transform: scaleX(1.2);
+}
+.test {
+    border: 2px solid red;
+}
+.pic-min {
+    width: 200px;
+}
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 20px;
+    transition: .3s ease-in-out;
+}
+.type1 {
+    color: #E7E5DD;
+    border-radius: 25px;
+    border: 3px solid #E7E5DD;
+}
+.type1:hover {
+    color: #bdb9ab;
+    background: #e7e5dd;
 }
